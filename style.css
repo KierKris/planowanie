@@ -1,0 +1,46 @@
+body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.table {
+  --bs-table-color: var(--bs-gray-600);
+  --bs-table-bg: var(--bs-gray-100);
+  --bs-table-border-color: transparent;
+  margin: 1em
+}
+.component {
+  color: var(--bs-gray-800);
+  background-color: var(--bs-gray-100);
+  border: 1px solid var(--bs-gray-200);
+  border-radius: .25rem;
+}
+
+.component-header {
+  color: var(--bs-purple);
+}
+.p {
+  color:blue;
+  font-size: 1em;
+}
+.table th {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  text-align: left;
+}
+.table tr {
+  text-align: center;
+}
+.lp {
+  width:5%;
+}
+.td-text {
+  text-align: left;
+  
+}
